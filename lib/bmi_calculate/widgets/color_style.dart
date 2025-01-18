@@ -39,3 +39,25 @@ const kBMITextStyle = TextStyle(
 const kBodyTextStyle = TextStyle(
   fontSize: 22.0,
 );
+
+// Weather App
+const kNumberTextStyleWeather = TextStyle(
+  fontSize: 70.0,
+  fontWeight: FontWeight.w900,
+  color: Colors.white38,
+);
+const kBoldTextTextStyleWeather = TextStyle(
+  fontSize:18.0,
+  fontWeight: FontWeight.w900,
+  color: Colors.white38,
+);
+const kNumTextTextStyleWeather = TextStyle(
+  fontSize:18.0,
+  fontWeight: FontWeight.w700,
+  color: Colors.white,
+);
+const kTextTextStyleWeather = TextStyle(
+  fontSize: 14.0,
+  fontWeight: FontWeight.w900,
+  color: Colors.white38,
+);

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/bmi_calculate/screens/home_screen.dart';
 import 'package:quiz_app/services/list_of_ques.dart';
 import 'package:quiz_app/presentation/screens/hospitale_task.dart';
+import 'package:quiz_app/weather_app/presentation/screens/weather_screen.dart';
 import 'package:rflutter_alert/rflutter_alert.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: HomeScreen(),
+      home: WeatherScreen(),
     );
   }
 }
